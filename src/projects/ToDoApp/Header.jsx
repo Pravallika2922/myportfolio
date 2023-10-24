@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Button } from "@mui/material";
 import { addItem, clearAll } from "./todoSlice";
 import { useDispatch } from "react-redux";
 
@@ -14,21 +13,16 @@ const Header = () => {
     <div className="todo_section">
       <input
         type="text"
-        placeholder="new task..."
         value={input}
         onChange={(e) => setInput(e.target.value)}
         className="todo_input"
       />
-      <Button variant="contained" onClick={handleAddItem} className="todo_btn">
-        Add Item
-      </Button>
-      <Button
-        variant="contained"
-        onClick={() => dispatch(clearAll())}
-        className="todo_btn"
-      >
+      <button className="todo_btn" onClick={handleAddItem}>
+        Add Task
+      </button>
+      <button className="todo_btn" onClick={() => dispatch(clearAll())}>
         Clear All
-      </Button>
+      </button>
     </div>
   );
 };

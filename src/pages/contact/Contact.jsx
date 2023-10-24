@@ -37,8 +37,8 @@ const Contact = () => {
               </div>
             </div>
             <div className="contact__socials">
-            <a href="https://github.com/Pravallika2922" className="contact__social-links"><AiFillGithub className="item__icon"/></a>
-            <a href="https://www.linkedin.com/in/pravallika-lakshmi-7a33b5234/" className="contact__social-links"><FaLinkedin className="item__icon"/></a>
+            <a href="https://github.com/Pravallika2922" className="contact__social-links" target="_blank"><AiFillGithub className="item__icon"/></a>
+            <a href="https://www.linkedin.com/in/pravallika-lakshmi-7a33b5234/" className="contact__social-links" target="_blank"><FaLinkedin className="item__icon"/></a>
           </div>
           </div>
          

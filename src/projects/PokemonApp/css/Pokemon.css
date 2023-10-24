@@ -20,7 +20,7 @@
 
 .card {
     width: 300px;
-    background-color: #9EDEF9;
+    background-color: #d0dee4;
     border-radius: 1rem;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     padding: 0 1.5rem;
@@ -59,7 +59,7 @@
 }
 
 .abilities .group {
-    background-color: #b74555;
+    background-color: #da5769;
     color: white;
     padding: 0.5rem;
     border-radius: 8px;
@@ -81,14 +81,14 @@
     width: 150px;
     margin: 1rem;
     font-size: 20px;
-    background-color: #b74555;
+    background-color: #da5769;
     color: white;
     border-radius: 8px;
     cursor: pointer;
 }
 
 .primary-nav {
-    background-color: #db586a;
+    background-color: #da5769;
     font-size: 20px;
     font-weight: bold;
 

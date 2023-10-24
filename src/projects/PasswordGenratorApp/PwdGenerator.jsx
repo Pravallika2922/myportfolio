@@ -45,16 +45,17 @@ const PwdGenerator = () => {
 
   return (
     <div className="pwd_container">
-      <h3 className="pwd_heading">Password Generator</h3>
-      <h6>
-        <em>Generate highly secure passwords</em>
-      </h6>
-      <div className="pwd">
-        <input type="text" value={password} readOnly />
-        <span className="pwd_errors">{errors}</span>
+      <div className="heading">
+        <h3 className="pwd_heading">Password Generator</h3>
+        <p>Generate highly secure passwords</p>
       </div>
+      <div className="pwd">
+        <label>Your Password:</label>
+        <input type="text" value={password} readOnly />
+      </div>
+      <span className="pwd_errors">{errors}</span>
       <div className="pwd_Choice">
-        <div className="pwd_length horizontal-shaking">
+        <div className="pwd_length">
           <label htmlFor="length">Enter Password Length</label>
           <input
             type="number"
